@@ -1,0 +1,10 @@
+.Wdate {
+    background-image: url(icon_date.gif);
+    background-position: right center;
+    background-repeat: no-repeat;
+    width: 150px;
+}
+
+.WdateFmtErr {
+    color: red;
+}

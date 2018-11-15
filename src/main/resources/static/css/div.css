@@ -1,0 +1,151 @@
+.divCopyTextarea {
+    width: 100%;
+    min-height: 50px;
+    max-height: 100px;
+    /*min-height: 20px;
+    max-height: 30px;*/
+    _height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    outline: 0;
+    border: 1px solid #f5f5f5;
+    font-size: 12px;
+    word-wrap: break-word;
+    /*������������
+    overflow-x: hidden;
+    */
+    overflow-y: auto;
+    _overflow-y: visible;
+}
+
+/*�趨�߶�*/
+.divCopyTextareaSetHeight {
+    width: 100%;
+    height: 50px;
+    /*min-height: 20px;
+    max-height: 30px;*/
+    _height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    outline: 0;
+    border: 1px solid #f5f5f5;
+    font-size: 12px;
+    word-wrap: break-word;
+    /*������������
+    overflow-x: hidden;
+    */
+    overflow-y: auto;
+    _overflow-y: visible;
+}
+
+.divProjectTest {
+    width: 100%;
+    height: 30px;
+    /*min-height: 20px;
+    max-height: 30px;*/
+    _height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    outline: 0;
+    border: 1px solid #f5f5f5;
+    font-size: 12px;
+    word-wrap: break-word;
+    /*������������
+    overflow-x: hidden;
+    */
+    overflow-y: auto;
+    _overflow-y: visible;
+}
+
+/*Ϊ�ƶ��ƻ�ʹ��*/
+.divCopyTextareaForMakeProject {
+    height: 30px;
+    width: 15%;
+    /*
+    min-height: 20px;
+    max-height: 30px;*/
+    _height: 120px;
+    margin-top: 1%;
+    padding: 3px;
+    outline: 0;
+    float: left;
+    border: 1px solid #f5f5f5;
+    font-size: 12px;
+    word-wrap: break-word;
+    /*������������
+    overflow-x: hidden;
+    */
+    overflow-y: auto;
+    _overflow-y: visible;
+}
+
+/*TODO    ��DIV��û�л���*/
+.word_break {
+    word-wrap: break-word; /*word-break����ǿ�л���;normal �������Ժͷ��������Ե��ı��������������ڻ���*/
+    word-break: break-all; /*ǿ��Ӣ�ĵ��ʶ���*/
+    float: left;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: simsun;
+    border: 1px solid #242424;
+    zoom: 1;
+    word-break: break-all;
+}
+
+/*�趨�߶ȺͿ��*/
+.divCopyTextareaSetHeightAndWidth_one {
+    width: 100%;
+    min-height: 30px;
+    /*min-height: 20px;
+    max-height: 30px;*/
+    _height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    outline: 0;
+    border: 1px solid #f5f5f5;
+    font-size: 12px;
+    word-wrap: break-word;
+    /*������������
+    overflow-x: hidden;
+    */
+    overflow-y: auto;
+    _overflow-y: visible;
+}
+
+.textareadiv {
+    border: 1px #ad0d0d solid;
+    resize: none;
+    height: 97px;
+    width: 671px;
+    padding: 9px;
+    color: #848484;
+    font-size: 12px;
+    overflow: auto;
+}
+
+/* divģ��bootstrap��placeholder����*/
+.divPlaceholder {
+    color: #000000;
+    border: 1px solid #f5f5f5;
+    font-size: 14px;
+}
+
+/*Ϊ��ʱ��ʾ element attribute content*/
+.divPlaceholder:empty:before {
+    content: attr(placeholder); /* element attribute*/
+    /*content: 'this is content';*/
+    color: #999;
+    float: left;
+    margin-left: 1.5%;
+}
+
+/*����ʱ����Ϊ��*/
+.divPlaceholder:focus:before {
+    content: none;
+}

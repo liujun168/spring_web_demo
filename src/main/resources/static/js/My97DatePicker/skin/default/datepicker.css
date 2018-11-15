@@ -1,0 +1,291 @@
+/* 
+ * My97 DatePicker 4.6
+ */
+
+.WdateDiv {
+    width: 210px;
+    background-color: #FFFFFF;
+    border: #989ba0 1px solid;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.WdateDiv2 {
+    width: 420px;
+}
+
+.WdateDiv * {
+    font-size: 9pt;
+}
+
+.WdateDiv .NavImg a {
+    display: block;
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+}
+
+.WdateDiv .NavImgll a {
+    float: left;
+    background: transparent url(img.gif) no-repeat scroll 0 0;
+}
+
+.WdateDiv .NavImgl a {
+    float: left;
+    background: transparent url(img.gif) no-repeat scroll -16px 0;
+}
+
+.WdateDiv .NavImgr a {
+    float: right;
+    background: transparent url(img.gif) no-repeat scroll -32px 0;
+}
+
+.WdateDiv .NavImgrr a {
+    float: right;
+    background: transparent url(img.gif) no-repeat scroll -48px 0;
+}
+
+.WdateDiv #dpTitle {
+    height: 30px;
+    padding: 6px 5px 0;
+}
+
+.WdateDiv .yminput {
+    text-align: center;
+    border: 0px;
+    height: 16px;
+    width: 50px;
+    cursor: pointer;
+    color: #454545;
+}
+
+.WdateDiv .yminputfocus {
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+    border: #bababa 1px solid;
+    height: 16px;
+    width: 50px;
+}
+
+.WdateDiv .menuSel {
+    z-index: 1;
+    position: absolute;
+    background-color: #FFFFFF;
+    border: #bababa 1px solid;
+    display: none;
+}
+
+.WdateDiv .menu {
+    padding: 0 5px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.WdateDiv .menuOn {
+    cursor: pointer;
+    background-color: #f18200;
+    color: #fff;
+    padding: 0 5px;
+}
+
+.WdateDiv .invalidMenu {
+    color: #aaa;
+}
+
+.WdateDiv .YMenu {
+    margin-top: 16px;
+
+}
+
+.WdateDiv .MMenu {
+    margin-top: 16px;
+    *width: 62px;
+}
+
+.WdateDiv .hhMenu {
+    margin-top: -90px;
+    margin-left: 26px;
+}
+
+.WdateDiv .mmMenu {
+    margin-top: -46px;
+    margin-left: 26px;
+}
+
+.WdateDiv .ssMenu {
+    margin-top: -24px;
+    margin-left: 26px;
+}
+
+.WdateDiv .Wweek {
+    text-align: center;
+    background: #DAF3F5;
+    border-right: #BDEBEE 1px solid;
+}
+
+.WdateDiv table {
+    border-collapse: collapse;
+}
+
+.WdateDiv td {
+    border: 1px solid #ededed;
+    line-height: 28px;
+    color: #454545;
+    text-align: center;
+}
+
+.WdateDiv .MTitle {
+    background: url(img.gif) repeat-x 0 -75px #626262;
+    font-weight: 700;
+    color: #454545;
+}
+
+.WdateDiv .MTitle td {
+    border: 1px solid #d5d5d5;
+}
+
+.WdateDiv .WdayTable2 {
+    border-collapse: collapse;
+    border: #c5d9e8 0px solid;
+}
+
+.WdateDiv .WdayTable2 table {
+    border: 0;
+}
+
+.WdateDiv .WdayTable {
+    border: #b4b4b4 0px solid;
+}
+
+.WdateDiv .Wday {
+    cursor: pointer;
+    color: #454545;
+}
+
+.WdateDiv .WdayOn {
+    cursor: pointer;
+    background-color: #f18200;
+    color: #fff;
+}
+
+.WdateDiv .Wwday {
+    cursor: pointer;
+
+}
+
+.WdateDiv .WwdayOn {
+    cursor: pointer;
+    color: #fff;
+    background-color: #f18200;
+}
+
+.WdateDiv .Wtoday {
+    cursor: pointer;
+    color: #fff;
+    background-color: #747474;
+}
+
+.WdateDiv .Wselday {
+    background-color: #f18200;
+    color: #fff;
+}
+
+.WdateDiv .WspecialDay {
+    color: #f18200;
+}
+
+.WdateDiv .WotherDay {
+    cursor: pointer;
+    color: #f42200;
+}
+
+.WdateDiv .WotherDayOn {
+    cursor: pointer;
+    background-color: #f18200;
+    color: #fff;
+}
+
+.WdateDiv .WinvalidDay {
+    color: #aaa;
+    cursor: default;
+}
+
+.WdateDiv #dpTime {
+    float: left;
+    margin-top: 3px;
+    margin-right: 30px;
+}
+
+.WdateDiv #dpTime td {
+    border: none;
+    line-height: 20px;
+}
+
+.WdateDiv #dpTime #dpTimeStr {
+    margin-left: 1px;
+}
+
+.WdateDiv #dpTime input {
+    height: 21px;
+    line-height: 18px;
+    width: 18px;
+    text-align: center;
+    border: #d1d1d1 1px solid;
+    color: #454545;
+}
+
+.WdateDiv #dpTime .tB {
+    border-right: 0px;
+}
+
+.WdateDiv #dpTime .tE {
+    border-left: 0;
+    border-right: 0;
+}
+
+.WdateDiv #dpTime .tm {
+    width: 7px;
+    border-left: 0;
+    border-right: 0;
+}
+
+.WdateDiv #dpTime #dpTimeUp {
+    height: 11px;
+    width: 14px;
+    border: none;
+    background: url(img.gif) no-repeat -31px -23px;
+}
+
+.WdateDiv #dpTime #dpTimeDown {
+    height: 10px;
+    width: 14px;
+    border: none;
+    background: url(img.gif) no-repeat -47px -23px;
+}
+
+.WdateDiv #dpQS {
+    float: left;
+    margin-right: 3px;
+    margin-top: 3px;
+    background: url(img.gif) no-repeat 0px -23px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.WdateDiv #dpControl {
+    text-align: right;
+    padding: 3px;
+    clear: both;
+}
+
+.WdateDiv .dpButton {
+    clear: both;
+    height: 20px;
+    width: 45px;
+    border: 1px solid #d1d1d1;
+    padding: 2px;
+    margin-right: 1px;
+    background: url(img.gif) no-repeat 0px bottom;
+    color: #454545;
+}

@@ -1,0 +1,25 @@
+#∑˛ŒÒ
+server:
+  port: 80
+spring:
+  thymeleaf:
+    suffix: .html
+    prefix: classpath:/public/
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/incubatorplatform?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+#    username: root
+#    password: root
+#    driver-class-name: com.mysql.jdbc.Driver
+#    #Mybatis≈‰÷√
+#  mybatis.type-aliases-package=com.woxin.itsm.model
+#  mybatis.mapper-locations=classpath:mapper/*.xm
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/db_user
+#    username: root
+#    password: 123456
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true

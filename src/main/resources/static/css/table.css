@@ -1,0 +1,19 @@
+table {
+    /*width:100px;*/
+    width: 100%;
+    table-layout: fixed; /* ֻ�ж����˱��Ĳ����㷨Ϊfixed������td�Ķ�����������á� */
+}
+
+td {
+    /*width:100%;*/
+    width: 20%;
+    word-break: keep-all; /* ������ */
+    white-space: nowrap; /* ������ */
+    overflow: hidden; /* ���ݳ������ʱ���س������ֵ����� */
+    text-overflow: ellipsis; /* ���������ı����ʱ��ʾʡ�Ա��(...) ������overflow:hidden;һ��ʹ��*/
+}
+
+/*
+.tdShow{border:solid #add9c0; border-width:0px 1px 1px 0px; padding:10px 0px;}
+.tableShow{border:solid #add9c0; border-width:1px 0px 0px 1px;}
+*/

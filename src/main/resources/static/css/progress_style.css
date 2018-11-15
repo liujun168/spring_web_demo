@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    font-family: "微软雅黑";
+    font-size: 14px;
+}
+
+#pro_image {
+    left: 100px;
+    position: relative;
+}
+
+#circle1 {
+    position: relative;
+    float: left;
+}
+
+#line1 {
+    position: relative;
+    float: left;
+}
+
+#circle2 {
+    position: relative;
+    float: left;
+}
+
+#line2 {
+    position: relative;
+    float: left;
+}
+
+#circle3 {
+    position: relative;
+    float: left;
+}
+
+#line3 {
+    position: relative;
+    float: left;
+}
+
+#circle4 {
+    position: relative;
+    float: left;
+}
+
+#line4 {
+    position: relative;
+    float: left;
+}
+
+#circle5 {
+    position: relative;
+    float: left;
+}
+
+#line5 {
+    position: relative;
+    float: left;
+}
+
+#circle6 {
+    position: relative;
+    float: left;
+}
+
+#line6 {
+    position: relative;
+    float: left;
+}
+
+#circle7 {
+    position: relative;
+    float: left;
+}
+
+#pro_text {
+    position: absolute;
+    margin-top: 30px;
+}
+
+#pro_text1 {
+    position: relative;
+    float: left;
+    width: 94px;
+    text-align: center;
+    margin-left: 65px;
+}
+
+#pro_text2 {
+    position: relative;
+    float: left;
+    width: 94px;
+    text-align: center;
+    margin-left: 17px;
+}
+
+#pro_text3 {
+    position: relative;
+    float: left;
+    width: 94px;
+    text-align: center;
+    margin-left: 17px;
+}
+
+#pro_text4 {
+    position: relative;
+    float: left;
+    width: 94px;
+    text-align: center;
+    margin-left: 17px;
+}
+
+#pro_text5 {
+    position: relative;
+    float: left;
+    width: 94px;
+    text-align: center;
+    margin-left: 17px;
+}
+
+#pro_text6 {
+    position: relative;
+    float: left;
+    width: 94px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+#pro_text7 {
+    position: relative;
+    float: left;
+    width: 94px;
+    text-align: center;
+    margin-left: 20px;
+}
